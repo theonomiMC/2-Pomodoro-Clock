@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro clock</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+
+  <head>
+    <!-- Font awesome icon link -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Pomodoro Clock</title>
+  </head>
+
+  <body>
+    <div class="App">
+      <h1>Pomodoro Clock</h1>
+      <div class="container">
+
+        <div class"row display">
+          <p id="timer-label">Session</p>
+          <p id="time-left">25:00</p>
+        </div>
+
+        <div class="row">
+          <button id="start_stop" class="btn">
+            <i class="fa fa-play"></i>
+            <i class="fa fa-pause"></i>
+          </button>
+          <button id="reset" class="btn">
+            <i class="fa fa-refresh" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <div class="row ">
+          <h3 id="break-label">Break Length</h3>
+          <h3 id="session-label">Session Length</h3>
+        </div>
+        <div class="row">
+          <button id="break-decrement">
+            <i class="fa fa-minus"></i>
+          </button>
+          <p id="break-length">5</p>
+          <button id="break-increment">
+            <i class="fa fa-plus"></i>
+          </button>
+          <button id="session-decrement">
+            <i class="fa fa-minus"></i>
+          </button>
+          <p id="session-length">25</p>
+          <button id="session-increment">
+            <i class="fa fa-plus"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+    <section class="profile-link" id="contact">
+      <div class="wrapper">
+        <a target="_blank" href="https://codepen.io/THeg_773">
+          <i class="fa fa-2x fa-codepen"></i>
+        </a>
+        <a target="_blank" href="">
+          <i class="fa fa-2x fa-linkedin style=" color:white;"></i>
+        </a>
+        <a target="_blank" href="https://github.com/theonomiMC" id="profile-link">
+          <i class="fa fa-2x fa-github"></i>
+        </a>
+      </div>
+
+    </section>
+    <!-- audio file -->
+    <audio preload="auto" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Sound_Effect_-_Door_Bell.ogg"
+      id="beep">
+  </body>
+  <!-- partial -->
+  <script
+    src='https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
