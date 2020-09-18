@@ -1,7 +1,7 @@
-# Pomodoro clock
+# [Pomodoro clock](https://theonomimc.github.io/Pomodoro-Clock/)
 
 ## By Natalia Bakakuri
 
-created using javascript, html, css
+ / javascript, html, css /
 
 
