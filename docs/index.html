@@ -3,28 +3,19 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Pomodoro clock</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="online Pomodoro clock/timer - FreeCodeCamp Project">
+  <title>Pomodoro clock</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="./style.css">
-
+  <!-- Font awesome icon link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <!-- partial:index.partial.html -->
-
-  <head>
-    <!-- Font awesome icon link -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <title>Pomodoro Clock</title>
-  </head>
-
-  <body>
-    <div class="App">
-      <h1>Pomodoro Clock</h1>
-      <div class="container">
+  <div class="App">
+     <h1>Pomodoro Clock</h1>
+     <div class="container">
 
         <div class"row display">
           <p id="timer-label">Session</p>
@@ -32,19 +23,22 @@
         </div>
 
         <div class="row">
+<!----strat/stop buttons----->
           <button id="start_stop" class="btn">
             <i class="fa fa-play"></i>
             <i class="fa fa-pause"></i>
           </button>
+<!----RESET button------>          
           <button id="reset" class="btn">
             <i class="fa fa-refresh" aria-hidden="true"></i>
           </button>
         </div>
-
+<!-- ----Break/Session Length section----- -->
         <div class="row ">
           <h3 id="break-label">Break Length</h3>
           <h3 id="session-label">Session Length</h3>
         </div>
+<!-- ----Break/Session Decrement/Increment----- -->
         <div class="row">
           <button id="break-decrement">
             <i class="fa fa-minus"></i>
@@ -62,7 +56,7 @@
           </button>
         </div>
       </div>
-
+<!-- Social Links -->
     </div>
     <section class="profile-link" id="contact">
       <div class="wrapper">
@@ -79,14 +73,12 @@
 
     </section>
     <!-- audio file -->
-    <audio preload="auto" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Sound_Effect_-_Door_Bell.ogg"
-      id="beep">
-  </body>
-  <!-- partial -->
+    <audio preload="auto" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Sound_Effect_-_Door_Bell.ogg" id="beep">
+                                                                                                                          
+  <!-- javascript files -->
   <script
     src='https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js'></script>
   <script src="./script.js"></script>
 
 </body>
-
 </html>
