@@ -1,4 +1,4 @@
-# [Pomodoro clock](https://theonomimc.github.io/Pomodoro-Clock/)
+# [Pomodoro clock](https://theonomimc.github.io/2-Pomodoro-Clock/)
 
 ## By Natalia Bakakuri
 
